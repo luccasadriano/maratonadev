@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+    HYPERTEXT
+    texto que contém links para outros documentos.
+
+    MARKUP
+    texto que conterá marcações
+    <tags>
+    
+    LANGUAGE
+    Para me comunicar de certa maneira. Sintaxe expecíficamente para escrita.
+-->
+
+<html>
+
+<head>
+    <!--
+            São configuração da minha pagina
+        -->
+    <title>Doe sangue! Doe vida!</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--
+            Aqui vem todo o conteúdo visível para o usuário, dentro de certa página
+        -->
+    <header>
+        <img class="logo" src="logo.png" alt="Imagem de DOE">
+        <h2>A sua doação importa</h2>
+        <p>Até 3 vida com 1 doação</p>
+        <p>Mais de 38.000 doação são necessárias todos os dias</p>
+        <p>Apenas 1,9% da população brasileira, doa sangue</p>
+
+        <button>Quero ajudar</button>
+    </header>
+    <!--
+    Input
+    Output
+-->
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/">
+            <input type="text" 
+            name="name" 
+            placeholder="Nome completo"
+            >
+
+
+            <input type="text" 
+            name="email" 
+            placeholder="Email"
+            >
+
+
+            <input type="text" 
+            name="blood" 
+            placeholder="Tipo sanguíneo"
+            >
+
+            <button>Quero Ajudar</button>
+        </form>
+
+
+    </section>
+
+    <main>
+        <h2>Últimos <span>doadores</span></h2>
+
+        <section class="donors">
+            <div class="donor">
+                <div class="blood">Tipo Sanguino</div>
+                <p>Luccas Adriano</p>
+            </div>
+
+            <div class="donor">
+                <div class="blood">AB+</div>
+                <p>Matheus</p>
+            </div>
+
+            <div class="donor">
+                <div class="blood">O+</div>
+                <p>Richard</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Com amor ❤️ Rocketseat
+    </footer>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
